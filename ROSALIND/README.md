@@ -1,0 +1,1 @@
+To access a problem on ROSALIND: if the file name is "EXAMPLE.py", navigate to https://rosalind.info/problems/EXAMPLE/ (not a real URL)
