@@ -3,7 +3,8 @@ from tabulate import tabulate
 
 def mysqrt(a):
 	"""
-	Returns an estimate (made using Newton's method) of the square root of positive float a.
+	Returns an estimate (made using Newton's method) of the square root of non-negative float a.
+	Implementation taken from the Think Python textbook.
 	"""
 	if a == 0:
 		return 0.0 # to avoid dividing by 0
