@@ -25,6 +25,9 @@ Select exercises from <i>Think Python: How to Think Like a Computer Scientist, 2
 <ul>Exercise 2: prompts user to enter mathematical expressions, which are evaluated using eval().</ul>
 <ul>Exercise 3: estimates the value of pi using Srinivasa Ramanujan's infinite series.</ul>
 
+<a href="https://greenteapress.com/thinkpython2/html/thinkpython2009.html">Chapter 8</a>: strings
+<ul>There were no exercises worth uploading, but I did refactor chapter 6 exercise 3.</ul>
+
 <a href="https://greenteapress.com/thinkpython2/html/thinkpython2012.html">Chapter 11</a>: dictionaries
 <ul>Exercise 1: checks whether words are present in a text. Use with words.txt.</ul>
 <ul>Exercise 5: finds "rotate pairs" in a word list. Use with wordlist.txt.</ul>
