@@ -8,9 +8,16 @@ def is_palindrome(word):
 	if word[0].lower() == word[-1].lower(): # compares the first and last letter
 		return is_palindrome(word[1:-1]) # if they're the same letter, then proceed with comparisons
 	return False
-	
+
+def is_palindrome_v2(word): # refactored after reading chapter 8
+	return word.lower() == word[::-1].lower() # -1 step size goes through the word backwards
+
+
 print(is_palindrome("flower")) # returns False
 print(is_palindrome("racecar"))
 print(is_palindrome("Rats live on no evil star"))
 print(is_palindrome("a"))
 print(is_palindrome(""))
+
+print(is_palindrome_v2("flower")) # returns False
+print(is_palindrome_v2("Rats live on no evil star"))
