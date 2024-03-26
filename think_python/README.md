@@ -60,3 +60,7 @@ Select exercises from <i>Think Python: How to Think Like a Computer Scientist, 2
 <ul>Exercise 2: finds all sets of anagrams in words_moby.txt. Also finds the collection of 8 letters with the most anagrams (i.e. most Scrabble bingos).</ul>
 <ul>Exercise 3: finds all metathesis pairs in words_moby.txt. These are words that can be transformed into each other by swapping two letters.</ul>
 <ul>Exercise 4: finds the longest reducible words in words_moby.txt. These are words for which, if you remove one letter at a time until it becomes a single-letter word, each intermediate sequence is also a real word.</ul>
+
+<a href="https://greenteapress.com/thinkpython2/html/thinkpython2014.html">Chapter 13</a>: case study in data structure selection
+<ul>Exercise 1: analyzes words in an input file. Encompasses exercises 1-4. Input file used was Anne of Green Gables, provided by Project Gutenberg.</ul>
+<ul>More to come.</ul>
