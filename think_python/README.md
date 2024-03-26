@@ -45,7 +45,7 @@ Select exercises from <i>Think Python: How to Think Like a Computer Scientist, 2
 
   “When I got home I figured out that the digits of our ages have been reversible six times so far. I also figured out that if we’re lucky it would happen again in a few years, and if we’re really lucky it would happen one more time after that. In other words, it would have happened 8 times over all. So the question is, how old am I now?”</ul></ul>
 
-<a href="https://greenteapress.com/thinkpython2/html/thinkpython2012.html">Chapter 10</a>: lists
+<a href="https://greenteapress.com/thinkpython2/html/thinkpython2011.html">Chapter 10</a>: lists
 <ul>Exercise 8: generates random samples of 23 birthdays to verify the birthday paradox.</ul>
 <ul>Exercise 10: implementation of a bisection search.</ul>
 <ul>Exercise 11: finds all reverse pairs in words_moby.txt. These are pairs of words for which one word spelled backwards is the other word.</ul>
@@ -54,3 +54,9 @@ Select exercises from <i>Think Python: How to Think Like a Computer Scientist, 2
 <a href="https://greenteapress.com/thinkpython2/html/thinkpython2012.html">Chapter 11</a>: dictionaries
 <ul>Exercise 1: checks whether words are present in a text. Use with words.txt.</ul>
 <ul>Exercise 5: finds "rotate pairs" in a word list. Use with wordlist.txt.</ul>
+
+<a href="https://greenteapress.com/thinkpython2/html/thinkpython2013.html">Chapter 12</a>: tuples
+<ul>Exercise 1: prints the letter frequencies of a string.</ul>
+<ul>Exercise 2: finds all sets of anagrams in words_moby.txt. Also finds the collection of 8 letters with the most anagrams (i.e. most Scrabble bingos).</ul>
+<ul>Exercise 3: finds all metathesis pairs in words_moby.txt. These are words that can be transformed into each other by swapping two letters.</ul>
+<ul>Exercise 4: finds the longest reducible words in words_moby.txt. These are words for which, if you remove one letter at a time until it becomes a single-letter word, each intermediate sequence is also a real word.</ul>
