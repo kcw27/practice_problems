@@ -62,5 +62,4 @@ Select exercises from <i>Think Python: How to Think Like a Computer Scientist, 2
 <ul>Exercise 4: finds the longest reducible words in words_moby.txt. These are words for which, if you remove one letter at a time until it becomes a single-letter word, each intermediate sequence is also a real word.</ul>
 
 <a href="https://greenteapress.com/thinkpython2/html/thinkpython2014.html">Chapter 13</a>: case study in data structure selection
-<ul>Exercise 1: analyzes words in an input file. Encompasses exercises 1-4. Input file used was Anne of Green Gables, provided by Project Gutenberg.</ul>
-<ul>More to come.</ul>
+<ul>All exercises (1-9) uploaded to ch13.py. Analyzes word frequencies in a book and prints Markov-generated text. Input file used was Anne of Green Gables, provided by Project Gutenberg.</ul>
