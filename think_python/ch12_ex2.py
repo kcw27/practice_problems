@@ -7,7 +7,7 @@ def anagrams():
 
 	for line in fin:
 		word = line.strip()
-		charas = "".join(sorted(list(word))) # string of the word's letters in alphabetical order
+		charas = "".join(sorted(word)) # string of the word's letters in alphabetical order
 
 		if charas in d:
 			d[charas].append(word)
