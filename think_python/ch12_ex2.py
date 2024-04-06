@@ -7,7 +7,7 @@ def anagrams():
 
 	for line in fin:
 		word = line.strip()
-		charas = tuple(sorted(list(word)))
+		charas = "".join(sorted(list(word))) # string of the word's letters in alphabetical order
 
 		if charas in d:
 			d[charas].append(word)
@@ -20,8 +20,6 @@ def anagrams():
 
 	return d_final
 
-#print(anagrams())
-
 def bingo():
 	"""
 	Finds the collection of 8 letters that forms the most possible bingos in Scrabble.
@@ -33,4 +31,6 @@ def bingo():
 	print("This set of 8 letters forms the most possible bingos in Scrabble:")
 	print(best, bingos[best])
 
-#bingo()
+if __name__ == "__main__":
+	print(anagrams())
+	bingo()
