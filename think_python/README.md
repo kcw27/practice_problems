@@ -63,3 +63,8 @@ Select exercises from <i>Think Python: How to Think Like a Computer Scientist, 2
 
 <a href="https://greenteapress.com/thinkpython2/html/thinkpython2014.html">Chapter 13</a>: case study in data structure selection
 <ul>All exercises (1-9) uploaded to ch13.py. Analyzes word frequencies in a book and prints Markov-generated text. Input file used was Anne of Green Gables, provided by Project Gutenberg.</ul>
+
+<a href="https://greenteapress.com/thinkpython2/html/thinkpython2015.html">Chapter 14</a>: files
+<ul>Exercise 1: reads the contents of one file and writes into a second file, replacing any instances of the pattern string with the replacement string.</ul>
+<ul>Exercise 2: implements shelving functionality for chapter 12 exercise 2.</ul>
+<ul>Exercise 3: finds duplicate files within a given directory.</ul>
