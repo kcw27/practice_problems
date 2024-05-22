@@ -68,3 +68,7 @@ Select exercises from <i>Think Python: How to Think Like a Computer Scientist, 2
 <ul>Exercise 1: reads the contents of one file and writes into a second file, replacing any instances of the pattern string with the replacement string.</ul>
 <ul>Exercise 2: implements shelving functionality for chapter 12 exercise 2.</ul>
 <ul>Exercise 3: finds duplicate files within a given directory.</ul>
+
+<a href="https://greenteapress.com/thinkpython2/html/thinkpython2016.html">Chapter 15</a>: classes and objects
+<ul>Exercise 1: creates Point, Rectangle, and Circle classes, as well as functions to use with objects of these classes.</ul>
+<ul>Exercise 2: draws Rectangles and Circles.</ul>
