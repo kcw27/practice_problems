@@ -46,45 +46,51 @@ def arc(t, r, angle):
 
 	polyline(t, length = arc_length, angle = step_angle, n = n)
 	
-
-	# The following lines are from my own implementation. 
-	# It suffered some issues with accuracy that were especially apparent when drawing flowers, so I decided to use Downey's implementation instead.
-	#circumference = 2 * math.pi * r
-	#fraction_of_circle = angle / 360
-	#arc_length = circumference * fraction_of_circle
-	#resolution = 100 # how many polyline calls to make. Analogous to "n" in Downey's implementation.
+def arc2(t, r, angle):
+	""" 
+	My own implementation. 
+	It suffered some issues with accuracy that were especially apparent when drawing flowers, 
+	so I decided to use Downey's implementation instead. It worked well for the flowers, but
+	it seems like it didn't work when I ran the code below to draw basic circles and arcs?
+	"""
+	circumference = 2 * math.pi * r
+	fraction_of_circle = angle / 360
+	arc_length = circumference * fraction_of_circle
+	resolution = 100 # how many polyline calls to make. Analogous to "n" in Downey's implementation.
 	# The higher the resolution, the smoother the curve appears, because each individual line is shorter and more lines are drawn.
 
-	#polyline(t, length=circumference/resolution, n=int(resolution * fraction_of_circle), angle=360/resolution)
+	polyline(t, length=circumference/resolution, n=int(resolution * fraction_of_circle), angle=360/resolution)
 
 def circle(t, r): # Hint: figure out the circumference of the circle and make sure that length * n = circumference.
 	"""
 	Draws a circle with radius r. t is a Turtle.
 	"""
-	arc(t, r, angle=360)
+	#arc(t, r, angle=360)
+	arc2(t, r, angle=360)
 
-#bob = turtle.Turtle()
-#print(bob)
+if __name__ == "__main__":
+	bob = turtle.Turtle()
+	print(bob)
 
-# drawing squares
-#square(bob, 100)
-#square(bob, 200)
+	# drawing squares
+	square(bob, 100)
+	square(bob, 200)
 
-# drawing polygons
-#polygon(bob, 100, 3)
-#polygon(bob, 200, 5)
+	# drawing polygons
+	polygon(bob, 100, 3)
+	polygon(bob, 200, 5)
 
-# circle time!
-#circle(bob, 100)
-#circle(bob, 50)
-#circle(bob, 200)
+	# circle time!
+	circle(bob, 100)
+	circle(bob, 50)
+	circle(bob, 200)
 
-# arc time!
-#arc(bob, 100, 180)
-#arc(bob, 50, 270)
-#arc(bob, 200, 360)
+	# arc time!
+	arc2(bob, 100, 180)
+	arc2(bob, 50, 270)
+	arc2(bob, 200, 360)
 
-# polyline
-#polyline(bob, 100, 3, 90) # only three sides of a square
+	# polyline
+	polyline(bob, 100, 3, 90) # only three sides of a square
 
-#turtle.mainloop()
+	turtle.mainloop()
